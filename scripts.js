@@ -1,6 +1,6 @@
 function find()
 {
-   
+   //comment added
     //document.getElementById("data").innerHTML= cityName;
     //console.log(cityName)
     async function fetchdet(){
