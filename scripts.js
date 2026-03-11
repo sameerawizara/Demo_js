@@ -4,7 +4,7 @@ function find() {
   async function fetchdet() {
     var input = document.getElementById("getinput").value;
     var output = " ";
-    const res = await fetch("https://jsonplaceholder.typicode.com/users");
+    const res = await fetch("https://jsonplaceholder.typicode.com/users"); //users api url 
     const dat = await res.json();
     //  console.log(dat);
     for (var i = 0; i < dat.length; i++) {
