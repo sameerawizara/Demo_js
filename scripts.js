@@ -13,6 +13,9 @@ function find() {
       if (input !== "address") {
         output += "<ul>" + object[input] + "</ul>";
         document.getElementById("data").innerHTML = output;
+
+        console.log(object[input]);
+
       } else {
         //for(var i in input)
         console.log(input);
