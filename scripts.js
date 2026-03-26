@@ -17,6 +17,7 @@ function find() {
         //for(var i in input)
         console.log(input);
         document.getElementById("data").innerHTML = input;
+        console.log("data changed");
       }
     }
   }
