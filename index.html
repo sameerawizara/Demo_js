@@ -1,34 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
 
-<head>
-  <meta name="viewport" content="width=device-width ,initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  
-  <title>Information</title>
-  
-</head>
-<body>
-    
-     <h1>Information</h1>
- 
-       <fieldset>
-              <Label>
-           
-              <input type="text" name="getinput" id="getinput" Placeholder="Name" required autofocus >
-              </Label>   
-               <br>
-            
-              
-              <button id="view" type="view" onclick="find()">View</button>     
-              </fieldset> 
+    <title>Information</title>
+  </head>
+  <body>
+    <h1>Information</h1>
 
+    <fieldset>
+      <label>
+        <input
+          type="text"
+          name="getinput"
+          id="getinput"
+          placeholder="Name"
+          required
+          autofocus
+        />
+      </label>
+      <br />
+      <!-- <button id="view1" type="view1" onclick="find1()">View1</button> -->
+      <button id="view" type="view" onclick="find()">View</button>
+    </fieldset>
 
-
-<br><br>  
-    <script src="scripts.js">
-    </script>          
- 
-</body>
-<div id="data"></div>
+    <br /><br />
+    <script src="scripts.js"></script>
+  </body>
+  <div id="data"></div>
 </html>
