@@ -6,7 +6,7 @@ function find() {
     var output = " ";
     const res = await fetch("https://jsonplaceholder.typicode.com/users"); //users api url 
     const dat = await res.json();
-    //  console.log(dat);
+     console.log(dat);
     for (var i = 0; i < dat.length; i++) {
       var object = dat[i];
       console.log(object[input]);
