@@ -31,7 +31,7 @@ function find() {
     // output="<ul>"+user.name+"</ul>"
     //  document.getElementById("data").innerHTML= output;
   }
-  // console.log(output)
+  console.log(output)
   // console.log(data);
   fetchdet();
 }
