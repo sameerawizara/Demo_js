@@ -1,7 +1,7 @@
 function find() {
   //comment added
   //document.getElementById("data").innerHTML= cityName;
-  //console.log(cityName)
+  console.log(cityName)
   async function fetchdet() {
     var input = document.getElementById("getinput").value;
     var output = " ";
