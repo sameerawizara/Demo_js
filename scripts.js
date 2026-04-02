@@ -25,6 +25,6 @@ function find() {
     }
   }
   console.log(output)
-  // console.log(data);
+  console.log(data);
   fetchdet();
 }
