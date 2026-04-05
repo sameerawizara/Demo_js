@@ -18,7 +18,7 @@ function find() {
 
       } else {
         for(var i in input)
-        console.log(input);
+        console.log("values",i);
         document.getElementById("data").innerHTML = input;
         console.log("data changed");
       }
