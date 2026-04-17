@@ -18,9 +18,9 @@ function find() {
 
       } else {
         for(var i in input)
-        console.log("values",i);
-        document.getElementById("data").innerHTML = input;
-        console.log("data changed");
+        // console.log("values",i);
+        // document.getElementById("data").innerHTML = input;
+        // console.log("data changed");
       }
     }
   }
